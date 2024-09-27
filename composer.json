@@ -10,8 +10,16 @@
             "DataStructures\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "DataStructures\\Tests\\": "tests/"
+        }
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
     },
     "license": "MIT"
 }
