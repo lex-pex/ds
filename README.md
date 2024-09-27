@@ -22,7 +22,7 @@ composer install
 
 ### LinkedList Example
 
-``` php
+```php
 use DataStructures\LinkedList;
 
 $linkedList = new LinkedList();
@@ -57,13 +57,3 @@ Feel free to fork this repository and submit pull requests! Any contributions ar
 ## License
 
 This project is licensed under the MIT License.
-
-
-
-
-
-
-
-
-
-
