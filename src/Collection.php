@@ -6,6 +6,11 @@ class Collection
 {
     protected array $items = [];
 
+    public function add($value): void
+    {
+        $this->items[] = $value;
+    }
+
     public function size(): int
     {
         return count($this->items);
